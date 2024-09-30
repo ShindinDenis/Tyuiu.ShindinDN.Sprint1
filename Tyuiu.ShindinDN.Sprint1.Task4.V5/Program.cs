@@ -21,6 +21,11 @@ namespace Tyuiu.ShindinDN.Sprint1.Task4.V5
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+            Console.WriteLine("*        1                                                                *");
+            Console.WriteLine("* --------------                                                          *");
+            Console.WriteLine("*        ___                                                              *");
+            Console.WriteLine("*  |x + / y  |                                                            *");
+            Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Введите значение X:");
             double x = Convert.ToDouble(Console.ReadLine());

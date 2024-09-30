@@ -23,7 +23,7 @@ namespace Tyuiu.ShindinDN.Sprint1.Task2.V16
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             int r;
-            Console.WriteLine("\nВведите R:");
+            Console.WriteLine("\nВведите радиус круга:");
             r = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("\n***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
