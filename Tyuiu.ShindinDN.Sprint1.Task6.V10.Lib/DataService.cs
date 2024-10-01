@@ -12,8 +12,7 @@ namespace Tyuiu.ShindinDN.Sprint1.Task6.V10.Lib
                 string word = words[i];
                 if (word.Length > 1 && word.Length % 2 != 0)
                 {
-                    int middle = word.Length / 2;
-                    word = word.Remove(middle, 1);
+                    word = word.Remove(word.Length / 2, 1);
                 }
                 words[i] = word;
             }
