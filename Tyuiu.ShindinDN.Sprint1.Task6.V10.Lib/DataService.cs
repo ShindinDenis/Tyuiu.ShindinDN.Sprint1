@@ -6,7 +6,7 @@ namespace Tyuiu.ShindinDN.Sprint1.Task6.V10.Lib
     {
         public string DeleteMiddleLetter(string value)
         {
-            string[] words = value.Split(' ');
+            string[] words = value.Split(" ");
             for (int i = 0; i < words.Length; i++)
             {
                 string word = words[i];
